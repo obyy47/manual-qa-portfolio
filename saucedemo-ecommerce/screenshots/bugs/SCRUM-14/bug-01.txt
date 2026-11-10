@@ -1,0 +1,19 @@
+Evidence for SCRUM-14: ~5 second delay (performance_glitch_user)
+
+A screenshot cannot show a delay, so the delay was measured manually.
+
+Method:
+- Tool: stopwatch on a phone
+- Account: performance_glitch_user / secret_sauce
+- Measured the time from the click until the next page was displayed
+- Result was the same on each try
+
+Measured actions:
+1. Login: about 5 seconds
+2. Selecting a sort option on the inventory page: about 5 seconds
+3. Clicking "Continue Shopping" on the cart page: about 5 seconds
+4. Clicking "Back Home" after checkout: about 5 seconds
+
+Comparison: standard_user responds without a noticeable delay.
+
+Related test cases: SWA-4, SWA-9, SWA-14, SWA-19

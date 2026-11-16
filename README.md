@@ -28,6 +28,7 @@ This repository shows how I plan, run, and report manual tests on two web applic
 1. [`saucedemo/bug-reports.md`](./saucedemo/bug-reports.md): the 12 bugs I found and reported
 2. [`saucedemo/README.md`](./saucedemo/README.md): suites, test runs, and results
 3. [`seragam-sd/README.md`](./seragam-sd/README.md): role-based tests (parent vs admin) and access control
+4. [Related repositories](#related-repositories): automated UI, API, and performance testing portfolios built on top of these test cases
 
 ## Notes
 
@@ -35,9 +36,19 @@ This repository shows how I plan, run, and report manual tests on two web applic
 - Seragam SD is a personal learning project that I used to practice designing tests for roles and access control.
 - Test cases and screenshots are exported from Qase and Jira.
 
+## Related repositories
+
+| Repository | Category | What it covers |
+|---|---|---|
+| [postman-api-testing](https://github.com/obyy47/postman-api-testing) | API Testing | API tests for Reqres and Restful Booker: assertions, JSON Schema validation, and request chaining |
+| [wdio-saucedemo-automation](https://github.com/obyy47/wdio-saucedemo-automation) | UI Automation (JS) | WebdriverIO E2E automation for SauceDemo using the Page Object pattern across Chrome and Firefox |
+| [selenium-saucedemo-automation](https://github.com/obyy47/selenium-saucedemo-automation) | UI Automation (Python) | Selenium WebDriver + pytest E2E suite using Page Object Model, parallel runs, HTML report, and GitHub Actions CI |
+| [k6-performance-testing](https://github.com/obyy47/k6-performance-testing) | Performance Testing | k6 load, stress, spike, and data-driven tests with custom metrics, HTML reports, and GitHub Actions CI |
+| [jmeter-performance-testing](https://github.com/obyy47/jmeter-performance-testing) | Performance Testing | Apache JMeter load testing plans, thread group configurations, assertions, and HTML dashboard reports |
+
 ## Next
 
-Separate repositories for API testing (Postman), test automation (WebdriverIO, Selenium), performance testing (K6, JMeter), and mobile automation (Appium) are planned. I will link them here when they are ready.
+- Mobile test automation using **Appium**.
 
 ## Contact
 
